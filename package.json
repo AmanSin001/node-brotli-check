@@ -1,0 +1,29 @@
+{
+  "name": "node-brotli-check",
+  "version": "1.0.0",
+  "description": "Check a Node.js runtime for the CVE-2026-111497 Brotli decoder fix and find Brotli entry points in a project.",
+  "type": "module",
+  "bin": {
+    "node-brotli-check": "./node-brotli-check.mjs"
+  },
+  "files": [
+    "node-brotli-check.mjs"
+  ],
+  "scripts": {
+    "test": "node --test node-brotli-check.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "security",
+    "cve"
+  ],
+  "author": "Aman Singh (https://www.codewares.in)",
+  "license": "MIT",
+  "homepage": "https://github.com/AmanSin001/node-brotli-check",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmanSin001/node-brotli-check.git"
+  }
+}
